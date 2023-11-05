@@ -8,4 +8,7 @@ public/
 _multiconfig.yml
 # Local Netlify folder
 .netlify
+# example config
 *.example
+# backup files
+*.bak

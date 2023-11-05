@@ -105,11 +105,13 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        Archives: /archives
+        首页: /
+        归档: /archives
         # Categories: /categories
         # Tags: /tags
-        About: /about
+        学生手册: /minfadian
+        关于: /about
+        学校官网: /school
     # Links to be shown on the right of the navigation bar
     links:
         Download on GitHub:
@@ -166,9 +168,9 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
     type: gitalk
-    client_id: 99525787a0eec3b8f165
-    client_secret: 2a3a2f9eee3b592cf29e3300501274ba69e20405
-    repo: class-hexo-gitalk
+    client_id: $CLIENT_ID
+    client_secret: $CLIENT_SCECRET
+    repo: class-hexo
     owner: xuanxuan1231
     admin:
         - xuanxuan1231
@@ -252,9 +254,6 @@ widgets:
         avatar_rounded: false
         # Email address for the Gravatar
         gravatar: 
-        # URL or path for the follow button
-        follow_link: https://github.com/ppoffice
-        # Links to be shown on the bottom of the profile widget
         # URL or path for the follow button
         # follow_link: https://github.com/ppoffice
         # Links to be shown on the bottom of the profile widget
