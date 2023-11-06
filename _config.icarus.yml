@@ -168,8 +168,8 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
     type: gitalk
-    client_id: $CLIENT_ID
-    client_secret: $CLIENT_SCECRET
+    client_id: { process.env.CLIENT_ID }
+    client_secret: { process.env.CLIENT_SECRET }
     repo: class-hexo
     owner: xuanxuan1231
     admin:
